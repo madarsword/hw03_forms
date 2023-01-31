@@ -52,4 +52,4 @@ class Post(models.Model):
         return self.text[:15]
 
     class Meta:
-        ordering =('-pub_date',)
+        ordering = ('-pub_date',)
